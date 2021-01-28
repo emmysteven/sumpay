@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <AnalysisLevel>Latest</AnalysisLevel>
+        <RootNamespace>SumPay.Domain</RootNamespace>
+        <AssemblyName>SumPay.Domain</AssemblyName>
+    </PropertyGroup>
+
+</Project>
