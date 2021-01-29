@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Applicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{763CB004-97EF-4AFA-9792-DA659E2A3514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "tests\Domain.UnitTests\Domain.UnitTests.csproj", "{960AD772-4EB3-4855-9535-1CE2AB85519F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{763CB004-97EF-4AFA-9792-DA659E2A3514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763CB004-97EF-4AFA-9792-DA659E2A3514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763CB004-97EF-4AFA-9792-DA659E2A3514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960AD772-4EB3-4855-9535-1CE2AB85519F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960AD772-4EB3-4855-9535-1CE2AB85519F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960AD772-4EB3-4855-9535-1CE2AB85519F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960AD772-4EB3-4855-9535-1CE2AB85519F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +61,7 @@ Global
 		{4FBB3616-FFF2-45A7-8EE2-8F800AE9002A} = {44963288-F63D-4716-BABE-B1F85D8A8E52}
 		{A92D24DD-7D96-4207-B62C-EB00AC78A2D9} = {44963288-F63D-4716-BABE-B1F85D8A8E52}
 		{763CB004-97EF-4AFA-9792-DA659E2A3514} = {44963288-F63D-4716-BABE-B1F85D8A8E52}
+		{960AD772-4EB3-4855-9535-1CE2AB85519F} = {1BD6AFF2-CC57-4460-9765-FA9C0FE13079}
+		{D9DFF3A5-343F-4D4A-A934-BA95CDA853E8} = {1BD6AFF2-CC57-4460-9765-FA9C0FE13079}
 	EndGlobalSection
 EndGlobal
